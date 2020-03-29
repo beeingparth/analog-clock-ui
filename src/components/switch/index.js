@@ -2,10 +2,10 @@ import React from "react"
 import "./switch.css"
 
 export default function (props) {
-  const { handleDarkMode } = props
+  const { isDarkMode, handleDarkMode } = props
   return (
     <div className="toggleWrapper">
-      <input type="checkbox" className="dn" id="dn" onChange={() => handleDarkMode()} />
+      <input type="checkbox" checked={isDarkMode} className="dn" id="dn" onChange={() => handleDarkMode()} />
       <label htmlFor="dn" className="toggle">
         <span className="toggle__handler">
           <span className="crater crater--1"></span>

@@ -35,7 +35,7 @@ export default function () {
         isDarkMode={isDarkMode}
         time={time}
       />
-      <Switch handleDarkMode={handleDarkMode} />
+      <Switch isDarkMode={isDarkMode} handleDarkMode={handleDarkMode} />
       <div className="clock">
         <div className="hour">
           <div className="hr" style={{ transform: `rotateZ(${hour}deg)` }}>
