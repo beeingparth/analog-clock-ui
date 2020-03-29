@@ -57,7 +57,7 @@ body {
 }
 .clock-wrapper{
   border-radius: 50%;
-  background: var(--primary-background-color, #ffffff);
+  background: var(--clock-background-color, #ffffff);
 }
 .clock {
   height: 350px;
