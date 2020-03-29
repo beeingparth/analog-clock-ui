@@ -28,8 +28,13 @@ export default function () {
   }
 
   return (
-    <div className="clock-wrapper" >
-      <CustomHelmet title="Analog Clock UI" isDarkMode={isDarkMode} />
+    <div className="clock-wrapper">
+      <CustomHelmet
+        title="Analog Clock UI"
+        description="Analog Clock UI with Dark and Light Mode."
+        isDarkMode={isDarkMode}
+        time={time}
+      />
       <Switch handleDarkMode={handleDarkMode} />
       <div className="clock">
         <div className="hour">
