@@ -1,0 +1,41 @@
+.config-wrapper{
+  position: fixed;
+  bottom: 10px;
+  right: calc(50% - 250px + 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 250px;
+  border-radius: 5px;
+  margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}
+
+.colors {
+  width: 16.666%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.colors .circle {
+  height: 30px;
+  width: 30px;
+  transform: scale(.7);
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.colors .circle:hover,
+.colors .circle.active {
+  transform: scale(1);
+  transition: all .5s ease;
+}

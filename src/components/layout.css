@@ -31,6 +31,10 @@
   --min: #ffffff;
   --sec: #6EA3FB;
 }
+.light-mode{
+  --primary-background-color: #6EA3FB;
+  --clock-background-color: #ffffff;
+}
 
 * {
   margin: 0;
@@ -53,11 +57,11 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: var(--primary-background-color, #6EA3FB);
+  background: var(--primary-background-color, #ffffff);
 }
 .clock-wrapper{
   border-radius: 50%;
-  background: var(--primary-background-color, #ffffff);
+  background: var(--clock-background-color, #ffffff);
 }
 .clock {
   height: 350px;
